@@ -1,0 +1,39 @@
+body{
+     background-color:white;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{margin-left:150px;}
+main{
+display:flex;
+justify-content:center;
+align-items:center;
+}
+.chessboard{
+border:10px solid black;
+width:700px;
+height:700px;
+
+
+}
+.first-row{
+display:flex;
+}
+.second-row{
+display:flex;
+}
+.black{
+background-color:#8a785d ;
+width:87.5px;
+height:87.5px;
+font-size:60px;
+text-align:center;
+color: #d6dbdf  ;
+}
+.white{
+background-color:#fccc74;
+width:87.5px;
+height:87.5px;
+font-size:60px;
+text-align:center;
+color:  #d6dbdf  ;
+}
